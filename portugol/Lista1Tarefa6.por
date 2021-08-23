@@ -17,7 +17,7 @@ programa
 		escreva("Digite o valor de Y2 :")
 		leia(y2)
 		//processamentos
-		d = Matematica.raiz((Matematica.potencia((x2-x1),2)+Matematica.potencia((y2-y1),2)),2)
+		d = Matematica.arredondar((Matematica.raiz((Matematica.potencia((x2-x1),2.00)+Matematica.potencia((y2-y1),2.00)),2.00)),2)
 		//saidas
 		escreva("O resultado de D é "+d)
 		
@@ -28,7 +28,7 @@ programa
  * Esta seção do arquivo guarda informações do Portugol Studio.
  * Você pode apagá-la se estiver utilizando outro editor.
  * 
- * @POSICAO-CURSOR = 369; 
+ * @POSICAO-CURSOR = 448; 
  * @PONTOS-DE-PARADA = ;
  * @SIMBOLOS-INSPECIONADOS = ;
  * @FILTRO-ARVORE-TIPOS-DE-DADO = inteiro, real, logico, cadeia, caracter, vazio;
