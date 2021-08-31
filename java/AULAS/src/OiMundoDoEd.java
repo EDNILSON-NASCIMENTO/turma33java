@@ -1,9 +1,15 @@
+
 import java.util.Scanner;
 
-public class OiMundo {
+public class OiMundoDoEd {
 	
 	public static void main(String[] args) {
 	
+		
+		/*
+		 * 
+		 * 
+		 */
 		//variaveis
 		Scanner leia = new Scanner(System.in);//instanciamento
 		String nome;
