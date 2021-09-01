@@ -9,8 +9,20 @@ public class Tarefa7 {
 	
 		
 		//variaveis
-		Locale.setDefault(Locale.US);
-		Scanner leia = new Scanner(System.in);
+		Locale.setDefault(Locale.US); //PERFUMARIA
+		Scanner leia = new Scanner(System.in);//instacias
+		//printf
+		//CLASSE String
+		//cadeia = String %s
+		//TIPO
+		//inteiro = int %d
+		//real = double %f = %.2f
+		//caracter = char %c
+		//logico = boolean %b 
+		
+		
+		
+	
 		double a,b,c,d,e,f,x,y;
 		String nome;
 		
@@ -37,7 +49,9 @@ public class Tarefa7 {
 		// %s - String - texto
 		// %d - int - numero inteiro
 		// %f [%.2f] - double - numero real
-
+		
+		leia.close(); //perfumaria
+		
 	}
 
 }
