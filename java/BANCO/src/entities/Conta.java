@@ -1,6 +1,6 @@
 package entities;
 
-public class Conta {
+public abstract class  Conta {
 
 	//atributos
 	private int numero;

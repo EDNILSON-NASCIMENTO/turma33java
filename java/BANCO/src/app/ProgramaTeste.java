@@ -2,7 +2,7 @@ package app;
 
 import java.util.Scanner;
 
-import entities.Conta;
+import entities.ContaPoupanca;
 
 public class ProgramaTeste {
 
@@ -18,7 +18,7 @@ public class ProgramaTeste {
 		System.out.print("Digite o cpf da conta :");
 		cpf = leia.next();
 		
-		Conta cli1 = new Conta(numero,cpf);
+		ContaPoupanca cli1 = new ContaPoupanca(numero,cpf,1);
 		
 		cli1.credito(100.25);
 		cli1.credito(10);
