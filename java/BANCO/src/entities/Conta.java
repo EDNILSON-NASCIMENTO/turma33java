@@ -5,7 +5,7 @@ public abstract class  Conta {
 	//atributos
 	private int numero;
 	private String cpf;
-	private double saldo;
+	protected double saldo;
 	private boolean ativo;
 	
 	//construtor
