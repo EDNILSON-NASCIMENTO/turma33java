@@ -1,6 +1,6 @@
 package entities;
 
-public abstract class  Conta {
+public class  Conta {
 
 	//atributos
 	private int numero;
@@ -52,7 +52,11 @@ public abstract class  Conta {
 	//metodos
 	public void credito(double valor) {
 		//saldo = saldo + valor;
-		saldo += valor;
+				
+		if (valor >= 0) {
+			saldo += valor;
+		}
+		
 	}
 	
 	public void debito(double valor) {
